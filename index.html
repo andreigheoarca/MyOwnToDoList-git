@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>My Own To Do List</title>
+  </head>
+  <body>
+    <h1>My Own To Do List</h1>
+    <main class="main-section">
+      <article class="article-center">
+        <section class="section-center">
+          <!-- alert or success notification -->
+          <div class="alert alert-hidden">
+            <p class="alert-text">Alert text</p>
+          </div>
+          <div class="main-card">
+            <h2>Please add an item to your list</h2>
+            <!--form  -->
+            <form action="" class="form-list">
+              <div class="list-item">
+                <input
+                  type="text"
+                  placeholder="Add your item here..."
+                  name="new-item"
+                  id="add-item"
+                />
+                <div class="btn-container">
+                  <button class="btn add-btn" type="submit">
+                    <img
+                      src="Icons/Clipboard-Add.svg"
+                      class="icon"
+                      alt="add button"
+                    />Add item
+                  </button>
+                  <!-- <button type="button" class="btn edit-btn">
+                    <img src="Icons/Edit.svg" class="icon" alt="edit button" />
+                    Edit item
+                  </button>
+                  <button type="button" class="btn delete-btn">
+                    <img
+                      src="Icons/Trash Bin.svg"
+                      class="icon"
+                      alt="delete button"
+                    />Delete item
+                  </button> -->
+                </div>
+              </div>
+              <!-- end of list item -->
+            </form>
+            <!-- end of form -->
+          </div>
+          <div id="added-items">
+            <!-- <p class="added-text"></p>
+            <div class="btn-container">
+                  <button class="btn add-btn" type="submit">
+                    <img
+                      src="Icons/Clipboard-Add.svg"
+                      class="icon"
+                      alt="add button"
+                    />Add item
+                  </button>
+                  <button type="button" class="btn edit-btn">
+                    <img src="Icons/Edit.svg" class="icon" alt="edit button" />
+                    Edit item
+                  </button>
+                  <button type="button" class="btn delete-btn">
+                    <img
+                      src="Icons/Trash Bin.svg"
+                      class="icon"
+                      alt="delete button"
+                    />Delete item
+                  </button>
+          </div> -->
+        </section>
+        <button class="clear-btn">Delete All Items</button>
+      </article>
+    </main>
+  </body>
+  <script src="./app.js"></script>
+</html>
